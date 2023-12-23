@@ -30,8 +30,8 @@ async def training():
 
 
 
-@app.get('/predict')
-async def prediction(text):
+@app.post('/prediction')
+async def prediction_route(text):
 
     try:
         obj = PredictionPipeline()
