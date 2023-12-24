@@ -65,7 +65,7 @@ AWS-CICD-Deployment-with-Github-Actions
 2. - AmazonEC2FullAccess
 
 3. - Create ECR repo to store/save docker image
-   - 
+     
 - Save the URI: 380675867318.dkr.ecr.eu-north-1.amazonaws.com/textsummarizer
 
 4. - Create EC2 machine (Ubuntu)
